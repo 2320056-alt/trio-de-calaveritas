@@ -1,0 +1,85 @@
+body {
+    font-family: 'Georgia', serif; /*tipo de letra más tradicional*/
+    background-color: #333333;/*Fondo oscuro, típico de la noche de muertos*/
+    color: #f7e0b5;/*Color crema o hueso para el texto*/
+    margin: 0;
+    padding:20px;
+    text-align: center;
+}
+
+.contenedor {
+   max-width: 600px;
+   margin: 50px auto;
+   padding: 30px;
+   background-color: #2a0a02;/*Color oscuro que evoca tierra o altar*/
+   border: 5px solid #ff8800;/*Borde de color calabaza/cempasúchil */
+   border-radius: 15px;
+   box-shadow: 0 0 20px rgba(255, 136, 0, 0.8);
+}
+
+h1 {
+   color: #ffff;
+   font-size: 2.5em;
+   margin-bottom: 25px;
+   text-shadow: 2px 2px 4px #000000;
+}
+
+.ultima-calaverita {
+   padding: 20px;
+   border-left: 3px dashed #f7e0b5;
+   background-color: #333;/*Un color de fondo diferente para identicarla*/
+}
+
+/*ESTILOS PARA LOS TÍTULOS INDIVIDUALES DE CADA CALAVERITA (h2)*/
+.calaverita h2 {
+  color:#ff8800; /*Color naranja de cempasuchil para los títulos de cada calaverita */
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-align: center;
+  border-bottom: 1px solid #ff8800; /*linea decorativa bajo el título*/
+  padding-bottom: 5px;
+}
+
+/*ESTILOS PARA LOS SEPADORES HORIZONTALES */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ff8800; /*linea de color naranja para separar las calaveritas */
+    margin: 30px 0; /*Elimina el margen inferior*/
+}
+
+/*ESTILOS GENERALES Y SOLUCION DE ESPECIFICADO para el borde y padding*/
+.calaverita {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: left;
+    padding: 20px;
+    border-left: 3px dashed #f7e0b5; /*Borde punteando izquierdo */
+    /*Los estilos de borde y padding se definen a continuacion para mas especificidad*/
+}
+
+
+/*ESTILOS DE PARRAFOS DENTRO DE LA CALAVERITA*/
+.calaverita p {
+    margin: 5px 0;
+}
+
+/*Destacando a los personajes y lugares*/
+.huesuda, .parca {
+    font-weight: bold;
+    color: #ffcc00; /*dorado o amarillo fuerte*/
+}
+
+.panteon {
+    font-style: italic;
+    color: #a8a8a8; /*Gris hueso*/
+}
+
+.autor {
+    margin-top: 20px;
+    text-align: right;
+    font-size: 0.9em;
+    font-style: italic;
+    color: #ff8800;
+}
