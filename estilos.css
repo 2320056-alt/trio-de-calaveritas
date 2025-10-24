@@ -1,79 +1,59 @@
+/*Estilos generales (compartidos por todas las calaveritas)*/
 body {
-    font-family: 'Georgia', serif; /*tipo de letra más tradicional*/
-    background-color: #333333;/*Fondo oscuro, típico de la noche de muertos*/
-    color: #f7e0b5;/*Color crema o hueso para el texto*/
-    margin: 0;
-    padding:20px;
-    text-align: center;
+    font-family: 'Georgia', sans-serif; /*tipo de letra más tradicional*/
+    background-color: #222; /*Fondo oscuro para resaltar los colores*/
+    color: #fff; /*Texto blanco para mejor contraste*/
 }
 
 .contenedor {
-   max-width: 600px;
-   margin: 50px auto;
+   max-width: 700px;
+   width: 80%;
+   margin-bottom: 30px;
    padding: 30px;
-   background-color: #2a0a02;/*Color oscuro que evoca tierra o altar*/
-   border: 5px solid #ff8800;/*Borde de color calabaza/cempasúchil */
-   border-radius: 15px;
-   box-shadow: 0 0 20px rgba(255, 136, 0, 0.8);
+   background-color: #ac68eb; /*Morado pastel*/
+   text-align: center;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
-   color: #ffff;
-   font-size: 2.5em;
-   margin-bottom: 25px;
-   text-shadow: 2px 2px 4px #000000;
+   text-align: center;
 }
 
-.ultima-calaverita {
-   padding: 20px;
-   border-left: 3px dashed #f7e0b5;
-   background-color: #333;/*Un color de fondo diferente para identicarla*/
+/*Estilos especificos para la calaverita1*/
+.calaverita1 h1 {
+    color: #E63946; /*Rojo intenso*/
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-/*ESTILOS PARA LOS TÍTULOS INDIVIDUALES DE CADA CALAVERITA (h2)*/
-.calaverita h2 {
-  color:#ff8800; /*Color naranja de cempasuchil para los títulos de cada calaverita */
-  font-size: 1.5em;
-  margin-top: 0;
-  margin-bottom: 15px;
-  text-align: center;
-  border-bottom: 1px solid #ff8800; /*linea decorativa bajo el título*/
-  padding-bottom: 5px;
-}
-
-/*ESTILOS PARA LOS SEPADORES HORIZONTALES */
-hr {
-    border: none;
-    height: 1px;
-    background-color: #ff8800; /*linea de color naranja para separar las calaveritas */
-    margin: 30px 0; /*Elimina el margen inferior*/
-}
-
-/*ESTILOS GENERALES Y SOLUCION DE ESPECIFICADO para el borde y padding*/
-.calaverita {
-    font-size: 1.2em;
-    line-height: 1.6;
-    text-align: left;
-    padding: 20px;
-    border-left: 3px dashed #f7e0b5; /*Borde punteando izquierdo */
-    /*Los estilos de borde y padding se definen a continuacion para mas especificidad*/
-}
-
-
-/*ESTILOS DE PARRAFOS DENTRO DE LA CALAVERITA*/
-.calaverita p {
-    margin: 5px 0;
-}
-
-/*Destacando a los personajes y lugares*/
-.huesuda, .parca {
+.calaverita1 .huesuda, .calaverita1 .parca {
+    color: #06D6A0; /*Verde turquesa*/
     font-weight: bold;
-    color: #ffcc00; /*dorado o amarillo fuerte*/
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
-.panteon {
-    font-style: italic;
-    color: #a8a8a8; /*Gris hueso*/
+/*Estilos especificos para la calaverita2*/
+.calaverita2 h1 {
+  color:#FCA311; /*Naranja brillante*/
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.calaverita2 .huesuda, .calaverita2 .parca {
+    color: #457B9D; /*Azul acero*/
+    font-weight: bold;
+    text-shadow: 1px  1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/*Estilos especificos para la calverita3*/
+.calaverita3 h1{
+    color: #A8DADC; /*Azul pastel*/
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.calaverita3 .huesuda, .calaverita3 .parca {
+    color: #E76F51; /*Rojo anaranjado*/
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .autor {
@@ -81,5 +61,5 @@ hr {
     text-align: right;
     font-size: 0.9em;
     font-style: italic;
-    color: #ff8800;
+    color: #9b1717;
 }
